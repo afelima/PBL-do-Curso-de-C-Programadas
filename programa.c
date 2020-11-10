@@ -2,6 +2,8 @@
 Criar um menu (podendo ser com switch case) e representar as funções para cada opção.
 Fazer a base de cada função pedida pelo problema.*/
 
+#include <stdio.h>
+
 typedef struct{
   char nome_do_curso;
 }Curso;
@@ -19,10 +21,6 @@ int cadastro(Curso){
   scanf("%d", &Curso)
   printf("etc...")
 }
-
-
-
-#include <stdio.h>
 
 int main() {
   int resposta;
